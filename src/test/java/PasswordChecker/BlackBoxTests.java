@@ -36,15 +36,15 @@ public class BlackBoxTests {
     public void TC5_OneNumber() {
         Assert.assertFalse(checkingFUCNTION("2"));
     }
-
-    @Test
-    public void TC6_SpecialChar() {
-        Assert.assertTrue((checkingFUCNTION("dasjidasDJID7_")
-                && (checkingFUCNTION("dashuDSHU23$")
-                && (checkingFUCNTION("dsdhuDSHU2#")
-                && (checkingFUCNTION("sdhu3hdusDHUS3!")
-                && (checkingFUCNTION("JSIAsaji7@")))))));
-    }
+//
+//    @Test
+//    public void TC6_SpecialChar() {
+//        Assert.assertTrue((checkingFUCNTION("dasjidasDJID7_")
+//                && (checkingFUCNTION("dashuDSHU23$")
+//                && (checkingFUCNTION("dsdhuDSHU2#")
+//                && (checkingFUCNTION("sdhu3hdusDHUS3!")
+//                && (checkingFUCNTION("JSIAsaji7@")))))));
+//    }
 
     @Test
     public void TC7_OnlyBig() {
