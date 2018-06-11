@@ -69,45 +69,9 @@ public class App {
         return password.length() >= 6;
     }
 
-    public static boolean checkingFUCNTION(String password) {
+    static boolean checkingFUCNTION(String password) {
         return checkIFatLEAST6(password) && smallandBIG(password)
             && isTHEREnumber(password) && specialCHAR(password);
-
-//    private static boolean checkingFUCNTION(String password){
-//        boolean checkingIF = true;
-//
-//        checkIFatLEAST6(password);
-//        smallandBIG(password);
-//        isTHEREnumber(password);
-//        specialCHAR(password);
-//
-//        return checkingIF;
-//    }
-        // private static boolean checkingFUCNTION(String password) {
-        //     boolean checkingIF = true;
-
-        //     if (!checkIFatLEAST6(password)) {
-        //         checkingIF = false;
-        //         System.out.println("Your password doesn't have at least 6 signs.");
-        //     }
-
-        //     if (!smallandBIG(password)) {
-        //         checkingIF = false;
-        //         System.out.println("Your password needs small and capital letters.");
-        //     }
-
-        //     if (!isTHEREnumber(password)) {
-        //        checkingIF = false;
-        //        System.out.println("Please remember that your password needs at least one number.");
-        //     }
-
-        //     if (!specialCHAR(password)) {
-        //         checkingIF = false;
-        //         System.out.println("Your password doesn't have at least one special character.");
-        //     }
-
-        //     return checkingIF;
-        // }
     }
 
 }
