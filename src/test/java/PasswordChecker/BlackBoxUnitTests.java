@@ -5,7 +5,7 @@ import static PasswordChecker.App.checkingFUCNTION;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class BlackBoxTests {
+public class BlackBoxUnitTests {
 
     @Test
     public void TC1_testCase1() {
