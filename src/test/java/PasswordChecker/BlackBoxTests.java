@@ -18,6 +18,36 @@ public class BlackBoxTests {
     }
 
     @Test
+    public void TC_OnlyBigLetters() {
+        Assert.assertFalse(checkingFUCNTION("BSDUDS"));
+    }
+
+    @Test
+    public void TC_SpecialChar() {
+        Assert.assertFalse(checkingFUCNTION("!"));
+    }
+
+    @Test
+    public void TC_SpecialChar2() {
+        Assert.assertFalse(checkingFUCNTION("@"));
+    }
+
+    @Test
+    public void TC_SpecialChar3() {
+        Assert.assertFalse(checkingFUCNTION("#"));
+    }
+
+    @Test
+    public void TC_SpecialChar4() {
+        Assert.assertFalse(checkingFUCNTION("$"));
+    }
+
+    @Test
+    public void TC_SpecialChar5() {
+        Assert.assertFalse(checkingFUCNTION("_"));
+    }
+
+    @Test
     public void TC3_SmallAndBig() {
         Assert.assertFalse(checkingFUCNTION("ASDFGjkloiu"));
     }
