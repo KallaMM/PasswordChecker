@@ -39,7 +39,7 @@ public class BlackBoxTests {
 
     @Test
     public void TC6_SpecialChar() {
-        Assert.assertFalse((checkingFUCNTION("dasjidasDJID7_")
+        Assert.assertTrue((checkingFUCNTION("dasjidasDJID7_")
                 && (checkingFUCNTION("dashuDSHU23$")
                 && (checkingFUCNTION("dsdhuDSHU2#")
                 && (checkingFUCNTION("sdhu3hdusDHUS3!")
